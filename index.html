@@ -18,152 +18,81 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
 </head>
-<body class="fixed-sn light-blue-skin">
-
-  <!--Double navigation-->
-  <header>
-    <!-- Sidebar navigation -->
-    <div id="slide-out" class="side-nav sn-bg-4 fixed">
-      <ul class="custom-scrollbar">
-        <!-- Logo -->
-        <li>
-          <div class="logo-wrapper waves-light">
-            <a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="img-fluid flex-center"></a>
-          </div>
-        </li>
-        <!--/. Logo -->
-        <!--Social-->
-        <li>
-          <ul class="social">
-            <li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook"> </i></a></li>
-            <li><a href="#" class="icons-sm pin-ic"><i class="fab fa-pinterest"> </i></a></li>
-            <li><a href="#" class="icons-sm gplus-ic"><i class="fab fa-google-plus"> </i></a></li>
-            <li><a href="#" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a></li>
-          </ul>
-        </li>
-        <!--/Social-->
-        <!--Search Form-->
-        <li>
-          <form class="search-form" role="search">
-            <div class="form-group md-form mt-0 pt-1 waves-light">
-              <input type="text" class="form-control" placeholder="Search">
+<body>
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Home</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" href="#navbar-example2-fat">@Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#navbar-example2-mdo">@About</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+        aria-expanded="false">Dropdown</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#navbar-example2-one">Programming Languages</a>
+        <a class="dropdown-item" href="#navbar-example2-two">more</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#navbar-example2-three">three</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" class="scrollspy-example z-depth-1 mt-4" data-offset="0">
+  <h4 id="navbar-example2-fat">@Home</h4>
+   <!-- Full Page Intro -->
+  <div class="view  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Others/gradient2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-purple-slight d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+          <!--Grid column-->
+          <div class="col-md-12 text-center">
+            <h1 class="display-4 font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInUp">Welcome to Omer Rustemi Portfolio</h1>
+            <h5 class="pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 wow fadeInUp" data-wow-delay="0.2s">It comes
+              with a lot of new features</h5>
+            <div class="wow fadeInUp" data-wow-delay="0.4s">
+              <a class="btn btn-purple btn-rounded" href="https://www.facebook.com/omerustemi"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a class="btn btn-outline-purple btn-rounded" href="https://github.com/omerrustemicode"><i class="fas fa-book left"></i> GitHub</a>
             </div>
-          </form>
-        </li>
-        <!--/.Search Form-->
-        <!-- Side navigation links -->
-        <li>
-          <ul class="collapsible collapsible-accordion">
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> Submit
-                blog<i class="fas fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">Submit listing</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Registration form</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-hand-pointer"></i>
-                Instruction<i class="fas fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">For bloggers</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">For authors</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-eye"></i> About<i class="fas fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">Introduction</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Monthly meetings</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-envelope"></i> Contact me<i
-                  class="fas fa-angle-down rotate-icon"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">FAQ</a>
-                  </li>
-                  <li><a href="#" class="waves-effect">Write a message</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </li>
-        <!--/. Side navigation links -->
-      </ul>
-      <div class="sidenav-bg mask-strong"></div>
-    </div>
-    <!--/. Sidebar navigation -->
-    <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg double-nav">
-      <!-- SideNav slide-out button -->
-      <div class="float-left">
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
-      </div>
-      <!-- Breadcrumb-->
-      <div class="breadcrumb-dn mr-auto">
-        <p>Material Design for Bootstrap</p>
-      </div>
-      <ul class="nav navbar-nav nav-flex-icons ml-auto">
-        <li class="nav-item">
-          <a class="nav-link"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block">Support</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"><i class="fa fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Account</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
-      </ul>
-    </nav>
-    <!-- /.Navbar -->
-  </header>
-  <!--/.Double navigation-->
-
-  <!--Main Layout-->
-  <main>
-    <div class="container-fluid mt-5">
-      <h2>Advanced Double Navigation with fixed SideNav & fixed Navbar:</h2>
-      <br>
-      <h5>1. Fixed side menu, hidden on small devices.</h5>
-      <h5>2. Fixed Navbar. It will always stay visible on the top, even when you scroll down.</h5>
-      <div style="height: 2000px"></div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Content -->
     </div>
-  </main>
-  <!--Main Layout-->
+    <!-- Mask & flexbox options-->
+  </div>
+  <!-- Full Page Intro -->
+</header>
+  <h4 id="navbar-example2-mdo">@Portfolio</h4>
 
+  <h4 id="navbar-example2-one">one</h4>
+  <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+    Tumblr
+    farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+    booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+    heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+    cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+  <h4 id="navbar-example2-two">two</h4>
+  <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+    Tumblr
+    farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+    booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+    heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+    cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+  <h4 id="navbar-example2-three">three</h4>
+  <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+    Tumblr
+    farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+    booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+    heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+    cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+</div>
 </body>
 </html>
