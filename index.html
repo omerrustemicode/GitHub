@@ -10,57 +10,30 @@
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
 <!-- JQuery -->
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
 </head>
 <body>
-  <style>
-
-  html,
-  body,
-  header,
-  .view {
-    height: 100%;
-  }
-
-  @media (max-width: 740px) {
-    html,
-    body,
-    header,
-    .view {
-      height: 100vh;
-    }
-  }
-
-  .top-nav-collapse {
-    background-color: #f8bbd0 !important;
-  }
-
-  .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-  }
-
-  @media (max-width: 991px) {
-   .navbar:not(.top-nav-collapse) {
-    background: #f8bbd0 !important;
-   }
-  }
-
-</style>
 <nav id="navbar-example2" class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Home</a>
+  <a class="navbar-brand" href="#">Navbar</a>
   <ul class="nav nav-pills">
     <li class="nav-item">
-      <a class="nav-link active" href="#navbar-example2-fat">@Portfolio</a>
+      <a class="nav-link active" href="#navbar-example2-fat">@fat</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#navbar-example2-mdo">@About</a>
+      <a class="nav-link" href="#navbar-example2-mdo">@mdo</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
         aria-expanded="false">Dropdown</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#navbar-example2-one">Programming Languages</a>
-        <a class="dropdown-item" href="#navbar-example2-two">more</a>
+        <a class="dropdown-item" href="#navbar-example2-one">one</a>
+        <a class="dropdown-item" href="#navbar-example2-two">two</a>
         <div role="separator" class="dropdown-divider"></div>
         <a class="dropdown-item" href="#navbar-example2-three">three</a>
       </div>
@@ -68,37 +41,20 @@
   </ul>
 </nav>
 <div data-spy="scroll" data-target="#navbar-example2" class="scrollspy-example z-depth-1 mt-4" data-offset="0">
-  <h4 id="navbar-example2-fat">@Home</h4>
-   <!-- Full Page Intro -->
-  <div class="view  jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Others/gradient2.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-purple-slight d-flex justify-content-center align-items-center">
-      <!-- Content -->
-      <div class="container">
-        <!--Grid row-->
-        <div class="row wow fadeIn">
-          <!--Grid column-->
-          <div class="col-md-12 text-center">
-            <h1 class="display-4 font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInUp">Welcome to Omer Rustemi Portfolio</h1>
-            <h5 class="pt-md-5 pt-sm-2 pt-5 pb-md-5 pb-sm-3 pb-5 wow fadeInUp" data-wow-delay="0.2s">It comes
-              with a lot of new features</h5>
-            <div class="wow fadeInUp" data-wow-delay="0.4s">
-              <a class="btn btn-purple btn-rounded" href="https://www.facebook.com/omerustemi"><i class="fab fa-facebook-f"></i> Facebook</a>
-              <a class="btn btn-outline-purple btn-rounded" href="https://github.com/omerrustemicode"><i class="fas fa-book left"></i> GitHub</a>
-            </div>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </div>
-      <!-- Content -->
-    </div>
-    <!-- Mask & flexbox options-->
-  </div>
-  <!-- Full Page Intro -->
-
-  <h4 id="navbar-example2-mdo">@Portfolio</h4>
-
+  <h4 id="navbar-example2-fat">@fat</h4>
+  <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+    Tumblr
+    farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+    booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+    heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+    cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
+  <h4 id="navbar-example2-mdo">@mdo</h4>
+  <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
+    Tumblr
+    farm-to-table bicycle rights whatever. Anim keffiyeh carles cardigan. Velit seitan mcsweeney's photo
+    booth 3 wolf moon irure. Cosby sweater lomo jean shorts, williamsburg hoodie minim qui you probably haven't
+    heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
+    cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
   <h4 id="navbar-example2-one">one</h4>
   <p>Ad leggings keytar, brunch id art party dolor labore. Pitchfork yr enim lo-fi before they sold out qui.
     Tumblr
@@ -121,14 +77,5 @@
     heard of them et cardigan trust fund culpa biodiesel wes anderson aesthetic. Nihil tattooed accusamus,
     cred irony biodiesel keffiyeh artisan ullamco consequat.</p>
 </div>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
-
 </body>
 </html>
