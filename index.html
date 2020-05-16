@@ -22,15 +22,6 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-
-</head>
-<body>
-
-	<div class="se-pre-con"></div>
-	<!-- Ends -->
-
-
-  <!--Navbar -->
 <style>
 /* Paste this css to your style sheet file or under head tag */
 /* This only works with JavaScript, 
@@ -47,6 +38,22 @@ if it's not present, don't show loader */
 	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_4.gif) center no-repeat #fff;
 }
 </style>
+</head>
+<body>
+<script>
+	//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
+	<div class="se-pre-con"></div>
+	<!-- Ends -->
+
+
+  <!--Navbar -->
+
 <!--/.Navbar -->
 <style>
 
